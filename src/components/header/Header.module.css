@@ -7,6 +7,10 @@
     align-items: center;
     justify-content: space-between;
 }
+.wrapper a {
+    text-decoration: none;
+    color: #FFF;
+}
 
 .wrapper nav {
     display: flex;

@@ -26,3 +26,8 @@
   grid-gap: 15px;
   flex-wrap: wrap;
 }
+
+.not-found {
+  /* height: 100vh; */
+  width: 100vw;
+}
