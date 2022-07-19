@@ -5,6 +5,7 @@ import Mainpage from "./pages/Mainpage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
 import DashboardPage from "./pages/DashboardPage";
+import HousePage from "./pages/HousePage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Mainpage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/house/:id" element={<HousePage />} />
           <Route path="*" element={<div>
             <img className="not-found" alt="404" src="https://previews.123rf.com/images/kaymosk/kaymosk1804/kaymosk180400005/99776312-error-404-page-not-found-error-with-glitch-effect-on-screen-vector-illustration-for-your-design.jpg" />
           </div>} />
